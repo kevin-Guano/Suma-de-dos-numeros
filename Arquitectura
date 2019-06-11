@@ -1,0 +1,39 @@
+Pascal
+es un lenguaje creado por el profesor suizo Niklaus Wirth entre los años 1968 y 1969 y publicado en 1970. Su objetivo era crear un lenguaje que facilitara el aprendizaje de programación a sus alumnos, utilizando la programación estructurada y estructuración de datos. Sin embargo con el tiempo su utilización excedió el ámbito académico para convertirse en una herramienta para la creación de aplicaciones de todo tipo.
+
+Pascal se caracteriza por ser un lenguaje de programación estructurado fuertemente tipado. Esto implica que:
+
+El código está dividido en porciones fácilmente legibles llamadas funciones o procedimientos. De esta forma Pascal facilita la utilización de la programación estructurada en oposición al antiguo estilo de programación monolítica.
+Pascal, es llamado así en honor del matemático y filósofo francés Blaise Pascal, fue desarrollado por Niklaus Wirth.
+
+Antes de su trabajo en Pascal, Wirth había desarrollado Euler y ALGOL W y más tarde pasó a desarrollar los lenguajes Modula-2 y Oberon, al estilo de Pascal.
+
+Inicialmente, Pascal era en gran parte, pero no exclusivamente, destinado a enseñar a los estudiantes la programación estructurada.1​ Una generación de estudiantes usa Pascal como lenguaje de introducción de cursos de graduación. Las variantes de Pascal también se han usado para todo, desde proyectos de investigación a juegos de PC y sistemas embebidos. Existen nuevos compiladores de Pascal que son ampliamente utilizados.2​
+
+Pascal fue el lenguaje primario de alto nivel utilizado para el desarrollo en el Apple Lisa, y en los primeros años del Macintosh. Algunas partes del sistema operativo original del Macintosh se traducen a mano al lenguaje ensamblador del Motorola 68000 de sus fuentes Pascal.3​ El sistema de composición tipográfica TeX de Donald E. Knuth fue escrito en WEB, el sistema de programación literaria original, basado en DEC PDP-10 Pascal, mientras que aplicaciones como Total Commander, Skype y Macromedia Captivate fueron escritos en Delphi (Object Pascal).
+
+Objeto Pascal (Embarcadero Delphi) todavía se utiliza para el desarrollo de aplicaciones Windows, pero también tiene la capacidad de compilación cruzada del mismo código para Mac, iOS y Android. Otra versión multiplataforma llamada Free Pascal, con el IDE Lázaro, es popular entre los usuarios de Linux, ya que también ofrece desarrollo una vez, compila para todos (escriba una vez, compile en cualquier lugar). CodeTyphon es una distribución de Lazarus con más paquetes preinstalados y compiladores cruzados
+Delphi es un producto tipo RAD (Rapid Application Development) inicialmente desarrollado por Borland y actualmente por Embarcadero. Utiliza el lenguaje de programación Delphi, descendiente de Pascal, para crear aplicaciones para la plataforma Windows. Las últimas versiones también generan ejecutables para MacOS X, Linux y .NET.
+Free Pascal está escrito en Pascal (el compilador está creado usando Free Pascal), es un compilador estable y potente. También distribuido libremente bajo la licencia GPL. Este sistema permite mezclar código Turbo Pascal con código Delphi, y soporta muchas plataformas y sistemas operativos.
+Compilador GNU Pascal (GPC), escrito en C, basado en GNU Compiler Collection (GCC). Se distribuye bajo licencia GPL.
+Turbo Pascal fue el compilador Pascal dominante para PC durante los años 1980 y hasta principios de los años 1990, muy popular debido a sus magníficas extensiones y tiempos de compilación sumamente cortos. Actualmente, versiones viejas de Turbo Pascal (hasta la 7.0) están disponibles para descargarlo gratuito desde el sitio de Borland (es necesario registrarse).
+Oxygene es un compilador de Object Pascal para las plataformas .NET y Mono. Creado por RemObjects Software. Incluye características modernas en la sintaxis, con influencias de C#, Eiffel, Java, F# y otros lengaujesprogram AAD12011;
+ProGrama.
+uses Crt;
+
+var A, B, Suma : Integer;
+
+begin
+   ClrScr;
+   Write( 'Introduzca primer numero (entero): ' );
+   ReadLn( A );
+   Write( 'Introduzca segundo numero (entero): ' );
+   ReadLn( B );
+
+   Suma := A + B;
+
+   if ( Suma > 0 ) then
+      Write( 'LA SUMA SI ES MAYOR QUE CERO.' )
+   else
+      Write( 'LA SUMA NO ES MAYOR QUE CERO.' );
+end.
